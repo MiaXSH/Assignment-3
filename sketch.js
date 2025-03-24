@@ -1,9 +1,4 @@
 
-// var tada;
-// var button;
-// var button2;
-// var string = 'hello';
-// var numberOfClicks = 0;
 let textInput;
 var testTypefaceButton;
 var restartButton;
@@ -138,74 +133,3 @@ function testTypeface(){
 //position(): https://p5js.org/reference/p5.Element/position/
 //createInput(): https://p5js.org/reference/p5/createInput/
 // web safe font lists: https://blog.hubspot.com/website/web-safe-html-css-fonts
-
-
-
-
-
-// function setup(){
-//     createCanvas(600, 600);
-//     tada = createAudio('mysound.mp3');
-
-//     button = createButton('click me');
-//     button.position(49,153);
-//     button.hide();
-
-//     button2=createButton('no, click me');
-//     button2.position(200,10);
-//     button2.hide();
-//     button2.mousePressed(function(){
-//         button2.hide();
-//         button.show();
-//         numberOfClicks++;
-//         sillything();
-//     });
-    
-//     // button3.mousePressed(sillything);
-
-
-//     button.mousePressed(function(){
-//         // tada.play();
-//         button2.show();
-//         button.hide();
-//         numberOfClicks++;
-//         sillything();
-
-//     });
-
-//     // button.hide();
-
-    
-// }
-
-// function draw(){
-//     background(100);
-    
-//     if(mouseIsPressed){
-//         background(150);
-//         // tada.play();  //if keep pressing, keep playing
-//     }
-//     ellipse(mouseX,mouseY,10,10);
-//     text(numberOfClicks, 100, 100);
-// }
-// //global callback
-// function mousePressed(){
-//     // tada.play(); //only play once for one press, will not keep playing if keep pressing
-
-
-// }
-
-// //another callback
-// function windowResized(){
-//     resizeCanvas(windowWidth, windowHeight);
-//     button.show();
-// }
-
-// function sillything(){
-//     numberOfClicks++;
-//     if(numberOfClicks > 10){
-//         tada.play();
-//     }
-// }
-
-
